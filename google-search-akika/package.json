@@ -2,9 +2,23 @@
   "name": "google-search-akika",
   "version": "1.0.0",
   "description": "",
-  "main": "handler.js",
+  "private": true,
+  "main": ".eslintrc.js",
+  "devDependencies": {
+    "@cybozu/eslint-config": "^11.0.1",
+    "eslint": "^7.13.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {},
   "scripts": {
+    "lint": "eslint handler.js",
+    "fix": "eslint --fix handler.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/akika/for-test/tree/amplify-git/google-search-akika"
   },
   "keywords": [],
   "author": "",
