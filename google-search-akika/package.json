@@ -18,9 +18,13 @@
   },
   "repository":{
     "type": "git",
-    "url": "https://github.com/akika/for-test/tree/amplify-git/google-search-akika"
+    "url": "git+https://github.com/akika/for-test/tree/amplify-git/google-search-akika.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cydevnet/google-search-api-function/issues"
+  },
+  "homepage": "https://github.com/cydevnet/google-search-api-function#readme"
 }
